@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,900&family=Roboto+Condensed:wght@100&display=swap");
+
+body {
+  background: linear-gradient(to right, purple, rgb(92, 92, 219));
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 50px;
+  padding-top: 20px;
+  box-shadow: 5px 3px 5px rgb(150, 59, 150), -6px -6px 6px rgb(92, 92, 219);
+}
+
+a {
+  color: white;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: rgb(189, 185, 185);
+}
+
+/*Intruduction bar*/
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 80px;
+  width: 50%;
+}
+
+.info h5 {
+  font-size: 70px;
+  margin-bottom: 7px;
+}
+
+.info h2 {
+  font-size: 42px;
+}
+
+.info p {
+  font-size: 28px;
+  margin-top: 14px;
+}
+
+img {
+  float: right;
+  background-image: none;
+  width: 25%;
+  height: 30%;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.button {
+  color: white;
+  margin: 13px 15px 13px 15px;
+  padding: 13px 15px 13px 15px;
+  font-size: 15px;
+  background-color: rgb(158, 78, 158);
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: rgb(150, 59, 150);
+}
+.info {
+  margin-left: 40px;
+}
+
+#img {
+  box-shadow: 5px 3px 5px rgb(150, 59, 150), -6px -6px 6px rgb(150, 59, 150);
+}
+/* About me */
+.aboutme {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.ResumeBtn {
+  color: white;
+  margin: 13px 15px 13px 260px;
+  padding: 13px 15px 13px 15px;
+  font-size: 15px;
+  background-color: rgb(117, 117, 214);
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.ResumeBtn:hover {
+  color: rgb(150, 59, 150);
+}
+/*-Myskill-*/
+.myskill {
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.skill {
+  list-style-type: none;
+}
+
+.skill li {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.dots {
+  display: inline-block;
+  width: 100px;
+  border-bottom: 1px dotted white;
+}
+
+.filled {
+  border-bottom: 10px dotted purple;
+}
+
+/* My project*/
+
+.Myproject {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.project_info {
+  margin-top: 80px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.project_info h5 {
+  font-size: 70px;
+  margin-bottom: 7px;
+}
+
+.project_info h2 {
+  font-size: 42px;
+}
+
+.project_info p {
+  font-size: 28px;
+  margin-top: 14px;
+}
+#img2 {
+  float: right;
+  background-image: none;
+  width: 30%;
+  height: 250px;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: 5px 3px 5px rgb(150, 59, 150), -6px -6px 6px rgb(150, 59, 150);
+}
+
+.Link1 {
+  color: white;
+  margin: 13px 15px 13px 260px;
+  padding: 13px 30px 13px 30px;
+  font-size: 15px;
+  background-color: rgb(117, 117, 214);
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.Link1:hover {
+  color: rgb(137, 83, 121);
+}
+
+.Link2 {
+  color: white;
+  margin: 13px 15px 13px 260px;
+  padding: 13px 30px 13px 30px;
+  font-size: 15px;
+  background-color: #c049a4;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.Link2:hover {
+  color: rgb(150, 59, 150);
+}
+/* Coding Profile */
+
+.codingprofile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+#img3 {
+  height: 150px;
+  width: 150px;
+}
